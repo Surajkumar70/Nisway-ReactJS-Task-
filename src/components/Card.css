@@ -1,0 +1,90 @@
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(2, 2, 2, 2.2);
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+    background-color: #8FBC8F;
+}
+
+
+.footer {
+    display: flex;
+    gap: 11rem;
+    margin-bottom: 0.9rem;
+    font-size: 1.9rem;
+    margin-top: 1rem;
+}
+
+.footer :hover {
+    background-position: 0 -49px;
+}
+
+
+.card {
+    margin-bottom: 20px;
+}
+
+.title {
+    color: #070707f6;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    height: 5rem;
+    margin-bottom: 5px;
+    background-color:rgb(88, 181, 235);
+}
+
+
+.Date {
+    display: flex;
+    float: right;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+
+}
+
+.Author {
+    display: flex;
+    font-size: 1.7rem;
+    font-weight: bold;
+
+}
+
+.Media {
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: bold;
+
+
+}
+
+.headline {
+    font-size: 1.3rem;
+    font-size: 1.6rem;
+}
+
+.btn {
+    background-color: #eb1969;
+    color: #fff;
+    transition: background-color 1s;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #1698e4;
+    color: rgb(17, 16, 16);
+    font-weight: bold;
+}
+
+.btn:focus,
+.btn:active {
+    background-color: black;
+    transition: none;
+    font-weight: bold;
+}
