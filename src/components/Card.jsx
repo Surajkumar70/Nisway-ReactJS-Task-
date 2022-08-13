@@ -18,8 +18,10 @@ function Navbar(props) {
                 <h4 className='title' dangerouslySetInnerHTML={{ __html: props.data.title.rendered }} />
                 <img className="card-logo" src={props.data.jetpack_featured_media_url} alt="No Image" />
                 <div className="container">
-                    <p className="Date" >{props.data.date}</p>
-                    <p className="Author" >Author - {props.data.parsely.meta.author[0].name}</p>
+                    <div className="auth-date">
+                        <p className="Author" >Author - {props.data.parsely.meta.author[0].name}</p>
+                        <p className="Date" >{props.data.date}</p>
+                    </div>
                     <p className="Media" >Featured Media - {props.data.parsely.meta.publisher.name}</p>
                     <br></br>
                     <p className="headline" dangerouslySetInnerHTML={{ __html: p }}></p>
@@ -43,7 +45,7 @@ function Navbar(props) {
                             <i className="fa fa-twitter"></i>
                         </a>
 
-                        <a href="https://stackoverflow.com/users/16833747/surajkumar" style={{ color: "black" }}>
+                        <a to="blank" href="https://stackoverflow.com/users/16833747/surajkumar" style={{ color: "black" }}>
                             <i className="fa fa-stack-overflow "></i>
                         </a>
 

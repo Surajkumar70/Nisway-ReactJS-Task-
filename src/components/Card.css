@@ -9,13 +9,14 @@
     margin: auto;
     text-align: center;
     cursor: pointer;
-    background-color: #8FBC8F;
+    background-color: #e3eaa7;
+    margin-bottom: 1rem;
 }
 
 
 .footer {
     display: flex;
-    gap: 11rem;
+    justify-content: space-around;
     margin-bottom: 0.9rem;
     font-size: 1.9rem;
     margin-top: 1rem;
@@ -26,47 +27,46 @@
 }
 
 
-.card {
-    margin-bottom: 20px;
-}
-
 .title {
     color: #070707f6;
     font-family: arial, sans-serif;
     font-weight: bold;
     height: 5rem;
-    margin-bottom: 5px;
-    background-color:rgb(88, 181, 235);
+    margin-bottom: 2px;
+    background-color: #d6cbd3;
 }
 
 
 .Date {
     display: flex;
-    float: right;
+    margin: 0;
     font-weight: bold;
     font-size: 1.5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
+}
 
+.auth-date {
+    display: flex;
+    justify-content: space-around;
 }
 
 .Author {
+    flex: 2;
     display: flex;
-    font-size: 1.7rem;
+    word-wrap: normal;
+    font-size: 1.5rem;
     font-weight: bold;
-
+    margin: 0;
 }
 
 .Media {
     display: flex;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: bold;
-
-
 }
 
 .headline {
-    font-size: 1.3rem;
-    font-size: 1.6rem;
+    font-size: 1rem;
 }
 
 .btn {
@@ -87,4 +87,13 @@
     background-color: black;
     transition: none;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .auth-date {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: start;
+    }
 }
